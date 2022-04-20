@@ -1,11 +1,12 @@
 body{
+    color: #40514e;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
 hr{
-    border-style: none;
+   border-style: none;
    border-top: dotted 5px; 
    width: 6%;
    color: grey;
@@ -26,6 +27,7 @@ h2{
     color: #66BFBF;
     font-weight: normal;
     font-size: 2.5rem;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -35,6 +37,11 @@ h3{
 
 a{
     color: #11999E;
+    font-family: "Monserrat";
+}
+
+p{
+    line-height: 2;
 }
 
 .skill-row{
@@ -57,7 +64,7 @@ a{
 }
 
 .middle-container{
-margin-top: 10px;
+margin: 50px 0;
 position: relative;    
 }
 
@@ -84,12 +91,25 @@ position: relative;
 
 .footer{
     color: white;
+    font-size: 0.75rem;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 0 auto 25px;
 }
 
 .footer-img{
     margin-top: 10px;
+    margin-left: 5px;
     height: 30px;
     width: 30px;
+}
+
+#intro{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 #last-skill{
